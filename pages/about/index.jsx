@@ -20,6 +20,7 @@ import Circles from "../../components/Circles";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
+import Avatar from "../../components/Avatar";
 
 //  data
 const aboutData = [
@@ -109,7 +110,7 @@ const About = () => {
         exit="hidden"
         className="hidden xl:flex absolute -bottom-[165px] -left-[350px] "
       >
-        <AvatarRight />
+        <Avatar />
       </motion.div>
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         <div>text</div>
