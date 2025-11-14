@@ -23,27 +23,27 @@ const serviceData = [
   {
     icon: <RxCrop />,
     title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Criação de identidade visual única e memorável para sua marca.",
   },
   {
     icon: <RxPencil2 />,
     title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Designs modernos e funcionais que combinam estética e usabilidade.",
   },
   {
     icon: <RxDesktop />,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Desenvolvimento",
+    description: "Desenvolvimento de aplicações web e mobile com as melhores tecnologias.",
   },
   {
     icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Redação",
+    description: "Conteúdo criativo e persuasivo que engaja e converte seu público.",
   },
   {
     icon: <RxRocket />,
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Otimização para mecanismos de busca e aumento da visibilidade online.",
   },
 ];
 
@@ -69,15 +69,15 @@ const ServiceSlider = () => {
     >
       {serviceData.map((item, index) => {
         return (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} className="h-full">
             <div
-              className="bg-[rgba(65,47,123,0.15)] h-max rounded-lg px-6 py-8 flex sm:flex-col gap-x-6 sm:gap-x-0 group
+              className="bg-[rgba(65,47,123,0.15)] h-full rounded-lg px-6 py-8 flex sm:flex-col gap-x-6 sm:gap-x-0 group
               cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300"
             >
               {/* icon */}
               <div className="text-4xl text-accent mb-4">{item.icon}</div>
               {/* title */}
-              <div className="mb-8">
+              <div className="mb-8 flex-1">
                 <div className="mb-2 text-lg">{item.title}</div>
                 <p className="max-w-[350px] leading-normal">
                   {item.description}

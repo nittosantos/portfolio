@@ -20,7 +20,7 @@ const Work = () => {
               exit="hidden"
               className="h2 xl:mt-12"
             >
-              My Work <span className="text-accent">.</span>
+              Meus Trabalhos <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -29,9 +29,8 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Repellendus assumenda cumque necessitatibus voluptas, aliquam
-              doloribus ullam unde optio!
+              Explore alguns dos projetos que desenvolvi. Cada trabalho representa
+              dedicação, criatividade e soluções inovadoras para desafios reais.
             </motion.p>
           </div>
           {/* slider */}
