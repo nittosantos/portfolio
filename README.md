@@ -2,6 +2,8 @@
 
 Um portfólio pessoal moderno e interativo desenvolvido com Next.js, apresentando projetos, habilidades e experiência profissional de forma elegante e dinâmica.
 
+🌐 **Acesse o portfólio online**: [https://portfolio-kappa-wine-51.vercel.app](https://portfolio-kappa-wine-51.vercel.app)
+
 ## 🚀 Tecnologias Utilizadas
 
 - **Next.js 13.4.3** - Framework React para produção
@@ -135,7 +137,13 @@ Este projeto é privado e de uso pessoal.
 
 ## 👨‍💻 Desenvolvedor
 
-Desenvolvido com ❤️ por Nitto Dev
+**Nitto Dev**
+
+Desenvolvedor Full Stack com mais de 4 anos de experiência, especializado em React, React Native e Next.js no frontend, além de Fastify e Nest.js no backend. Proativo, comunicativo e sempre em busca de aprimoramento contínuo para entregar soluções digitais de alta qualidade.
+
+---
+
+Desenvolvido com ❤️ por [Nitto Dev](https://portfolio-kappa-wine-51.vercel.app)
 
 ---
 
