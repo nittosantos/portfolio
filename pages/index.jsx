@@ -36,12 +36,12 @@ const Home = () => {
             busca de aprimoramento contínuo para entregar soluções digitais de
             alta qualidade.
           </motion.p>
-          <div className='flex justify-center lg:hidden relative'>
+          {/* <div className='flex justify-center lg:hidden relative'>
             <ProjectsBtn />
           </div>
           <motion.div className='hidden lg:flex xl:flex relative'>
             <ProjectsBtn />
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
       <div className='w-full md:w-[600px] lg:w-[800px] xl:w-[1200px] h-full absolute right-0 bottom-0'>
