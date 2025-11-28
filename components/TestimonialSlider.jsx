@@ -12,24 +12,24 @@ import { FaQuoteLeft } from "react-icons/fa";
 const testimonialData = [
   {
     image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
+    name: "Ana Silva",
+    position: "Cliente",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Trabalho excepcional! O profissional superou todas as minhas expectativas com atenção aos detalhes e entrega pontual. Recomendo fortemente!",
   },
   {
     image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    name: "Maria Oliveira",
+    position: "Cliente",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Fiquei impressionada com a qualidade e dedicação. O projeto foi desenvolvido com muito cuidado e o resultado final foi perfeito. Muito satisfeita!",
   },
   {
     image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
+    name: "João Santos",
+    position: "Cliente",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Profissionalismo e expertise de alto nível. A comunicação foi excelente durante todo o processo e o trabalho entregue superou minhas expectativas.",
   },
 ];
 
@@ -69,7 +69,7 @@ const TestimonialSlider = () => {
               </div>
               {/* quote e message */}
               <div
-                className="flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20 
+                className="flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20
                 xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20"
               >
                 <div className="mb-4">

@@ -12,17 +12,17 @@ import { useRouter } from "next/router";
 
 // nav data
 export const navData = [
-  { name: "home", path: "/", icon: <HiHome /> },
-  { name: "about", path: "/about", icon: <HiUser /> },
-  { name: "services", path: "/services", icon: <HiRectangleGroup /> },
-  { name: "work", path: "/work", icon: <HiViewColumns /> },
+  { name: "início", path: "/", icon: <HiHome /> },
+  { name: "sobre", path: "/about", icon: <HiUser /> },
+  { name: "serviços", path: "/services", icon: <HiRectangleGroup /> },
+  { name: "trabalhos", path: "/work", icon: <HiViewColumns /> },
   {
-    name: "testimonials",
+    name: "depoimentos",
     path: "/testimonials",
     icon: <HiChatBubbleBottomCenterText />,
   },
   {
-    name: "contact",
+    name: "contato",
     path: "/contact",
     icon: <HiEnvelope />,
   },
@@ -31,9 +31,14 @@ export const navData = [
 const Nav = () => {
   const router = useRouter();
   const pathname = router.pathname;
+
+  const capitalizeFirstLetter = (str) => {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  };
+
   return (
     <nav
-      className="flex flex-col items-center, xl:justify-center gap-y-4 fixed bottom-0 
+      className="flex flex-col items-center, xl:justify-center gap-y-4 fixed bottom-0
       h-max mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen "
     >
       <div
@@ -51,7 +56,7 @@ const Nav = () => {
             >
               <div className="absolute pr-14 right-0 hidden xl:group-hover:flex">
                 <div className="bg-white relative flex text-primary items-center p-[8px] rounded-md">
-                  <div className="text-[14px]">{item.name}</div>
+                  <div className="text-[14px]">{capitalizeFirstLetter(item.name)}</div>
                 </div>
               </div>
               <div>{item.icon}</div>
